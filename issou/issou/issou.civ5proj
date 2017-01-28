@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{31db98ae-980d-4c78-8eb3-a4b14cac0a31}</ProjectGuid>
+    <Name>Mélenchon président??</Name>
+    <Guid>3fdb22f2-b2af-4ee3-844d-02b1d05eec5e</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Alpha</Stability>
+    <Teaser>Et si Mélenchon gagne les élections?? Un mod sympatique pour les insoumis. ATTENTION: LE FAIT QUE MÉLENCHON SOIT PRÉSIDENT NE R</Teaser>
+    <Description>Et si Mélenchon gagne les élections?? Un mod sympatique pour les insoumis. ATTENTION: LE FAIT QUE MÉLENCHON SOIT PRÉSIDENT NE RELÈVE D'AUCUN FAIT PRODUIT DANS LA RÉALITÉ</Description>
+    <Authors>BSA_Whis</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <Categories>$Categories$</Categories>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>issou</AssemblyName>
+    <RootNamespace>issou</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>
