@@ -4,4 +4,4 @@
 
 Bâtiment unique: Hôtel de Ville(disponible après la découverte de l'Administration): Culture +3, Bonheur +1
 
-Unité unique: Diplomate illustre(remplace le Marchand illustre): Permet de gagner une grosse quantité d'influence sur une cité état(détruit si utilisé), peut aussi construire un bureau de douane(détruit si utilisé)
+Unité unique: Citoyen insoumis(remplace le Général illustre): Puissante unité, qui ne peut pas combattre mais peut rallier les unités barbares à votre cause et déclencher un age d'or
