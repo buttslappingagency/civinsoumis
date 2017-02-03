@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <Improvements>
+    <Row>
+      <Type>IMPROVEMENT_CHATEAU</Type>
+      <Description>TXT_KEY_IMPROVEMENT_CHATEAU</Description>
+      <Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_TEXT</Civilopedia>
+      <Help>TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP</Help>
+      <ArtDefineTag>ART_DEF_IMPROVEMENT_CHATEAU</ArtDefineTag>
+      <WorldSoundscapeAudioScript></WorldSoundscapeAudioScript>
+      <ImprovementPillage></ImprovementPillage>
+      <ImprovementUpgrade></ImprovementUpgrade>
+      <SpecificCivRequired>1</SpecificCivRequired>
+      <CivilizationType>CIVILIZATION_FRANCE</CivilizationType>
+      <HillsMakesValid>0</HillsMakesValid>
+      <FreshWaterMakesValid>0</FreshWaterMakesValid>
+      <RiverSideMakesValid>0</RiverSideMakesValid>
+      <NoFreshWater>0</NoFreshWater>
+      <RequiresFlatlands>0</RequiresFlatlands>
+      <RequiresFlatlandsOrFreshWater>0</RequiresFlatlandsOrFreshWater>
+      <RequiresFeature>0</RequiresFeature>
+      <RequiresImprovement>0</RequiresImprovement>
+      <RemovesResource>0</RemovesResource>
+      <PromptWhenComplete>0</PromptWhenComplete>
+      <Coastal>0</Coastal>
+      <Water>0</Water>
+      <DestroyedWhenPillaged>0</DestroyedWhenPillaged>
+      <DisplacePillager>0</DisplacePillager>
+      <BuildableOnResources>0</BuildableOnResources>
+      <BarbarianCamp>0</BarbarianCamp>
+      <Goody>0</Goody>
+      <Permanent>0</Permanent>
+      <OutsideBorders>0</OutsideBorders>
+      <InAdjacentFriendly>0</InAdjacentFriendly>
+      <IgnoreOwnership>0</IgnoreOwnership>
+      <OnlyCityStateTerritory>0</OnlyCityStateTerritory>
+      <GraphicalOnly>0</GraphicalOnly>
+      <CreatedByGreatPerson>0</CreatedByGreatPerson>
+      <NoTwoAdjacent>1</NoTwoAdjacent>
+      <AdjacentLuxury>1</AdjacentLuxury>
+      <AllowsWalkWater>0</AllowsWalkWater>
+      <CultureAdjacentSameType>0</CultureAdjacentSameType>
+      <TilesPerGoody>0</TilesPerGoody>
+      <GoodyRange>0</GoodyRange>
+      <FeatureGrowth>0</FeatureGrowth>
+      <UpgradeTime>0</UpgradeTime>
+      <RiverSideUpgradeMod>0</RiverSideUpgradeMod>
+      <CoastalLandUpgradeMod>0</CoastalLandUpgradeMod>
+      <HillsUpgradeMod>0</HillsUpgradeMod>
+      <FreshWaterUpgradeMod>0</FreshWaterUpgradeMod>
+      <DefenseModifier>50</DefenseModifier>
+      <NearbyEnemyDamage>0</NearbyEnemyDamage>
+      <PillageGold>30</PillageGold>
+      <ResourceExtractionMod>0</ResourceExtractionMod>
+      <LuxuryCopiesSiphonedFromMinor>0</LuxuryCopiesSiphonedFromMinor>
+      <GoldMaintenance>0</GoldMaintenance>
+      <CultureBombRadius>0</CultureBombRadius>
+      <RequiresXAdjacentLand>-1</RequiresXAdjacentLand>
+      <PortraitIndex>2</PortraitIndex>
+      <IconAtlas>TERRAIN_IMPROVEMENT_ICON_ATLAS_EXP2</IconAtlas>
+    </Row>
+  </Improvements>
+
+  <!-- Trait_ImprovementYieldChanges -->
+  <!-- Policy_ImprovementYieldChanges -->
+  <!-- Policy_ImprovementCultureChanges -->
+  <!-- Belief_ImprovementYieldChanges -->
+  <!-- Improvement_Flavors -->
+  <Improvement_Yields>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <YieldType>YIELD_CULTURE</YieldType>
+      <Yield>2</Yield>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <YieldType>YIELD_GOLD</YieldType>
+      <Yield>1</Yield>
+    </Row>
+  </Improvement_Yields>
+  <!-- Improvement_YieldPerEra -->
+  <!-- Improvement_AdjacentCityYields -->
+  <!-- Improvement_CoastalLandYields -->
+  <!-- Improvement_FreshWaterYields -->
+  <!-- Improvement_HillsYields -->
+  <!-- Improvement_AdjacentMountainYieldChanges -->
+  <!-- Improvement_PrereqNatureYields -->
+  <!-- Improvement_RiverSideYields -->
+  <Improvement_ValidTerrains>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <TerrainType>TERRAIN_GRASS</TerrainType>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <TerrainType>TERRAIN_PLAINS</TerrainType>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <TerrainType>TERRAIN_DESERT</TerrainType>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <TerrainType>TERRAIN_TUNDRA</TerrainType>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <TerrainType>TERRAIN_SNOW</TerrainType>
+    </Row>
+  </Improvement_ValidTerrains>
+  <!-- Improvement_ValidFeatures -->
+  <!-- Improvement_ValidImprovements -->
+  <!-- Improvement_ResourceTypes -->
+  <!-- Improvement_ResourceType_Yields -->
+  <!-- Improvement_RouteYieldChanges -->
+  <Improvement_TechYieldChanges>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <TechType>TECH_FLIGHT</TechType>
+      <YieldType>YIELD_CULTURE</YieldType>
+      <Yield>1</Yield>
+    </Row>
+    <Row>
+      <ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+      <TechType>TECH_FLIGHT</TechType>
+      <YieldType>YIELD_GOLD</YieldType>
+      <Yield>2</Yield>
+    </Row>
+  </Improvement_TechYieldChanges>
+  <!-- Improvement_TechNoFreshWaterYieldChanges -->
+  <!-- Improvement_TechFreshWaterYieldChanges -->
+
+  <Language_en_US>
+    <Row Tag="TXT_KEY_IMPROVEMENT_CHATEAU">
+      <Text>Chateau</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_TEXT">
+      <Text><!-- Add Civilopedia text here --></Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP">
+      <Text>A Chateau must be built adjacent to a Luxury resource.  It may not be adjacent to another Chateau. It provides the same +50% defense bonus as a Fort. Must be built in French territory. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2.</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

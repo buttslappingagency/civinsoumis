@@ -31,6 +31,29 @@
     <PackageMod>false</PackageMod>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Art" />
+    <Folder Include="Lua" />
+    <Folder Include="XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML\Civilization.xml">
+      <SubType>Lua</SubType>
+    </Content>
+    <Content Include="XML\DiplomacyResponses.xml">
+      <SubType>Lua</SubType>
+    </Content>
+    <Content Include="XML\Improvements.xml">
+      <SubType>Lua</SubType>
+    </Content>
+    <Content Include="XML\Leader.xml">
+      <SubType>Lua</SubType>
+    </Content>
+    <Content Include="XML\Trait.xml">
+      <SubType>Lua</SubType>
+    </Content>
+    <Content Include="XML\Units.xml">
+      <SubType>Lua</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
 </Project>
